@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project2python", "Project2python\Project2python.pyproj", "{6F95748E-2917-4319-AF8D-F86FECB98E43}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{3AE49B2A-16BC-4204-9EC8-D38EA08A0CC3}"
+	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
