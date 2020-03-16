@@ -1,7 +1,10 @@
 // this function is run when the page loads
 function main() {
     console.log("Beginning main()");
+<<<<<<< HEAD
     console.log("test");    
+=======
+>>>>>>> 2f3db2559b6431ebd59f1905aedd01c3c9b9ddf8
     weeklyChart(); // draw the weeklyChart
     salaryTable(); // draw the salaryTable
 }
@@ -77,6 +80,7 @@ function sqlToTable(rows) {
     }
     return body;
 }
+<<<<<<< HEAD
 new Chart(document.getElementById("donut-chart"), {
     type: 'doughnut',
     data: {
@@ -124,5 +128,7 @@ new Chart(document.getElementById("doughnut-chart"), {
         text: '980'
     }
 });
+=======
+>>>>>>> 2f3db2559b6431ebd59f1905aedd01c3c9b9ddf8
 
 main(); // initialize the page
